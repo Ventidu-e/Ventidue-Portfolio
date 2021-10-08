@@ -48,6 +48,12 @@ a.nav-link:hover {
    
 }
 
+h1 {
+    font-family: 'Playfair Display', serif;
+    line-height: 2rem;
+    color: rgb(138, 92, 39);
+}
+
 .mywelcome {
     font-family: 'Playfair Display', serif;
     line-height: 2rem;
@@ -55,8 +61,7 @@ a.nav-link:hover {
     padding-top: 57px;
 }
 
-.myexplore h1 {
-    font-size: 24px;
+.myexplore {
     font-family: 'Playfair Display', serif;
     line-height: 2rem;
     color: rgb(138, 92, 39);
@@ -84,6 +89,19 @@ a.nav-link:hover {
   }
 
 
+
+  @media (max-width: 575px) { 
+    h1 {
+        font-size: 18px;
+        line-height: 2rem;
+    }
+
+    .mydoorimg {
+        width: 400px;
+        height: auto;
+        margin-left: 35px;
+    }
+ }
 
 
 @media (min-width: 576px) { 
