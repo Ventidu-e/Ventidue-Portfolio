@@ -43,15 +43,25 @@ a.nav-link:hover {
 
 
 .mydoorimg {
-    margin-top: -80px;
+    margin-top: 50px;
+    margin-bottom: 44px;
    
 }
 
-h1 {
-    font-size: 16px;
+.mywelcome {
     font-family: 'Playfair Display', serif;
     line-height: 2rem;
-    color: white;
+    color: rgb(138, 92, 39);
+    padding-top: 57px;
+}
+
+.myexplore h1 {
+    font-size: 24px;
+    font-family: 'Playfair Display', serif;
+    line-height: 2rem;
+    color: rgb(138, 92, 39);
+    padding-top: 10px;
+
 }
 
 ::-webkit-scrollbar {
