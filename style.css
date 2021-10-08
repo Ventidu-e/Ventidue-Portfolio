@@ -17,8 +17,15 @@
    }
 
    .navbar, .navbar-expand-lg {
-    background-color: transparent !important;
-    border-bottom:1px dashed snow;
+    background: rgb(247, 199, 199) !important;
+    border-bottom:2px dashed snow;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.bg-dark.scrolled {
+    background: rgb(43, 6, 179) !important;
+    
 }
 
 a.nav-link {
@@ -37,6 +44,7 @@ a.nav-link:hover {
 
 .mydoorimg {
     margin-top: -80px;
+   
 }
 
 h1 {
