@@ -1,0 +1,27 @@
+.container-fluid {background-color: rgba(247, 199, 199, 0.459) !important;}
+
+p {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    color: #8a5c27;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-bottom: 90px;
+
+}
+
+.mysurname {
+    position: relative;
+    top:-102px;
+    left: 500px;
+}
+
+.myemail {
+    margin-top: -50px;
+    margin-left: -10px;
+}
+
+.myinsta {
+    margin-left: -50px;
+}
