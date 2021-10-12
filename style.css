@@ -76,6 +76,10 @@ h1 {
     margin-top: -50px;
 }
 
+.myplan3 {
+    margin-top: -50px;
+}
+
 
 ::-webkit-scrollbar {
     width: 12px;
@@ -96,9 +100,11 @@ h1 {
     background-color:turquoise;
   }
 
+
+
   @media (max-width: 375px) { 
     h1 {
-        font-size: 18px;
+        font-size: 16px !important;
         line-height: 2rem;
     }
 
@@ -107,6 +113,15 @@ h1 {
         height: auto;
         margin-left: -10px !important;
     }
+
+    .myplan, .myplan2, .myplan3 {
+        display: none;
+    }
+
+    .myplan4 {
+        display: block;
+    }
+
  }
 
   @media (max-width: 575px) { 
@@ -118,8 +133,17 @@ h1 {
     .mydoorimg {
         width: 400px;
         height: auto;
-        margin-left: 35px;
+        margin-left: 60px;
     }
+
+    .myplan, .myplan2, .myplan3 {
+        display: none;
+    }
+
+    .myplan4 {
+        display: block;
+    }
+
  }
 
 
@@ -127,6 +151,14 @@ h1 {
     h1 {
         font-size: 20px;
         line-height: 2rem;
+    }
+
+    .myplan, .myplan2, .myplan4 {
+        display: none;
+    }
+
+    .myplan3 {
+        display: block;
     }
  }
 
@@ -137,7 +169,7 @@ h1 {
     line-height: 2rem;
 } 
 
-.myplan {
+.myplan, .myplan3, .myplan4 {
     display: none;
 }
 
@@ -159,7 +191,7 @@ h1 {
         display: block;
     }
 
-    .myplan2 {
+    .myplan2, .myplan3, .myplan4 {
         display: none;
     }
  }
