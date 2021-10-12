@@ -44,7 +44,7 @@ a.nav-link:hover {
 
 .mydoorimg {
     margin-top: 50px;
-    margin-bottom: 44px;
+    margin-bottom: 90px;
    
 }
 
@@ -66,8 +66,16 @@ h1 {
     line-height: 2rem;
     color: rgb(138, 92, 39);
     padding-top: 10px;
-
 }
+
+.myplan {
+    margin-top: -50px;
+}
+
+.myplan2 {
+    margin-top: -50px;
+}
+
 
 ::-webkit-scrollbar {
     width: 12px;
@@ -88,7 +96,18 @@ h1 {
     background-color:turquoise;
   }
 
+  @media (max-width: 375px) { 
+    h1 {
+        font-size: 18px;
+        line-height: 2rem;
+    }
 
+    .mydoorimg {
+        width: 350px !important;
+        height: auto;
+        margin-left: -10px !important;
+    }
+ }
 
   @media (max-width: 575px) { 
     h1 {
@@ -106,7 +125,7 @@ h1 {
 
 @media (min-width: 576px) { 
     h1 {
-        font-size: 18px;
+        font-size: 20px;
         line-height: 2rem;
     }
  }
@@ -118,13 +137,30 @@ h1 {
     line-height: 2rem;
 } 
 
+.myplan {
+    display: none;
+}
+
+.myplan2 {
+    display: block;
+}
+
+
 }
 
 
 @media (min-width: 992px) { 
     h1 {
-        font-size: 30px;
+        font-size: 28px;
         line-height: 3rem;
+    }
+
+    .myplan {
+        display: block;
+    }
+
+    .myplan2 {
+        display: none;
     }
  }
 

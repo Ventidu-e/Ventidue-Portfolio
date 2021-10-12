@@ -1,21 +1,32 @@
-.container-fluid {background-color: rgba(247, 199, 199, 0.459) !important;}
+.container-fluid {
+    background-color: rgba(247, 199, 199, 0.459) !important;
+    height: 1000px;
+}
+
+.mycontacts {
+    margin-top:50px;
+}
 
 p {
     text-align: center;
     font-family: "Open Sans", sans-serif;
     color: #8a5c27;
-    font-size: 18px;
+    
     font-weight: 600;
     padding-top: 30px;
     padding-bottom: 90px;
 
 }
 
+/*.myform {
+    margin-left: 10px;
+}
+
 .mysurname {
     position: relative;
-    top:-102px;
-    left: 500px;
-}
+    top:-70px;
+    left: 600px;
+}*/
 
 .myemail {
     margin-top: -50px;
@@ -25,3 +36,16 @@ p {
 .myinsta {
     margin-left: -50px;
 }
+
+@media (max-width: 575px) { 
+    p {
+        font-size: 14px;
+    }
+ }
+
+
+@media (min-width: 576px) { 
+    p {
+        font-size: 18px;
+    }
+ }
