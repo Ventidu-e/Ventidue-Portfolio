@@ -3,8 +3,8 @@ html {
   }
 
 @keyframes example {
-    from {background-color: rgb(247, 199, 199);}
-    to {background-color: rgb(252, 215, 115);}
+    from {background-color: rgba(247, 199, 199, 0.459);}
+    to {background-color: rgba(252, 215, 115, 0.603);}
   }
 
   div.container-fluid {

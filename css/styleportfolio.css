@@ -1,4 +1,5 @@
-.container-fluid {background-color: rgba(247, 199, 199, 0.459) !important;}
+body {background-color: rgba(247, 199, 199, 0.459) !important;}
+.container-fluid {background-color: rgba(247, 199, 199, 0) !important;}
 
 .my2sx {
     position: relative;
@@ -24,6 +25,9 @@
     outline-offset: 3px;
 }
 
+.mybottomimg {
+  padding-bottom: 100px !important;
+}
 
 
 .overlay {

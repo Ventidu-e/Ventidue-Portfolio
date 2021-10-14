@@ -1,6 +1,10 @@
-.container-fluid {
+body {
     background-color: rgba(247, 199, 199, 0.459) !important;
-    height: 1000px;
+}
+
+.container-fluid {
+    background-color: rgba(247, 199, 199, 0) !important;
+    
 }
 
 .mycontacts {
