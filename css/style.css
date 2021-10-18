@@ -27,10 +27,7 @@ html {
     padding-right: 50px;
 }
 
-.bg-dark.scrolled {
-    background: rgb(43, 6, 179) !important;
-    
-}
+
 
 a.nav-link {
     color: white !important;
